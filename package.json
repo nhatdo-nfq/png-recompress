@@ -1,0 +1,25 @@
+{
+  "name": "png-recompress",
+  "version": "1.0.0",
+  "description": "Png Recompress",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node lib/install.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhatdo-nfq/png-recompress.git"
+  },
+  "author": "NhatDo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nhatdo-nfq/png-recompress/issues"
+  },
+  "homepage": "https://github.com/nhatdo-nfq/png-recompress#readme",
+  "dependencies": {
+    "bin-wrapper": "^4.1.0",
+    "logalot": "^2.1.0",
+    "path": "^0.12.7"
+  }
+}
