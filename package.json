@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "postinstall": "node lib/install.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "xo && ava"
   },
   "repository": {
     "type": "git",
@@ -18,10 +18,13 @@
   },
   "homepage": "https://github.com/nhatdo-nfq/png-recompress#readme",
   "dependencies": {
+    "ava": "^3.10.1",
     "bin-wrapper": "^4.1.0",
+    "compare-size": "^3.0.0",
     "execa": "^4.0.3",
     "logalot": "^2.1.0",
     "path": "^0.12.7",
-    "tempy": "^0.6.0"
+    "tempy": "^0.6.0",
+    "xo": "^0.32.1"
   }
 }
