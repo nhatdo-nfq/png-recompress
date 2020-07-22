@@ -19,7 +19,9 @@
   "homepage": "https://github.com/nhatdo-nfq/png-recompress#readme",
   "dependencies": {
     "bin-wrapper": "^4.1.0",
+    "execa": "^4.0.3",
     "logalot": "^2.1.0",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "tempy": "^0.6.0"
   }
 }
